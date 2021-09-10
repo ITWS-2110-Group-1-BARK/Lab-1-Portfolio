@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--- Part 3 microformatting reference --->
+  <link rel="profile" href="http://microformats.org/profile/hcard">
+  <head>
+    <title>Aneesh Kadali</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    
+       
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+	background-color: silver;
+  	background-position: center right; 
+	background-repeat: no-repeat; 
+      }      
+      h1 {
+        text-align: center; 
+        margin: 0;
+        padding: 0;
+        font-variant: large-caps;
+
+      }
+      h2 {
+        float: left;
+        clear: left;
+        width: 30%;
+        height: 20%;
+        font-size: 1.2em
+		margin-right: 0;
+      }
+      div {
+       }
+
+	   li{
+			list-style:none;
+	   }
+	   
+	   ul{
+	   }
+	   
+	   
+	  #background_list{
+		border-color: green;
+		padding-left: 20%;
+		text-align: left;
+	  }
+	  
+      #contactInfo {
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+        padding: 4px 0  4px 0;
+        margin: 0;
+        text-align: left;
+        white-space: nowrap;}
+      
+	  #address {
+        padding: 4px 0  4px 0;
+        margin: 0;
+        text-align: right;
+        white-space: nowrap;}
+
+
+	#summary_section{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	.summary{
+		margin-left: 0px;
+		margin-bottom: 25px;
+	}
+	
+	#job_section{
+		margin-left: 0px;
+		padding-left: 0px;
+		list-style: none;
+	}
+	
+	
+	.job{
+		margin-bottom:25px;
+	}
+
+	#education_section{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	
+		
+	.education{
+		margin-left: 0px;
+		margin-bottom: 25px;
+	}
+
+	.section_title{
+		text-align: left;
+	}
+	#right{    
+		float: right;  
+	}
+
+	
+    </style>
+  </head>
+
+  <body>
+  	<div id = "header">
+	    <h1>ANEESH KADALI</h1>
+        <ul id="contactInfo">
+		<!--- Part 3 implementation of hcard/vcard microformatting according to wikipedia and microformats website --->
+		  <div class = "vcard">
+			 <li class = "tel" style = "text-align: left;">908-421-1452 
+				<span class = "street-address" style = "float: right;">37 Carriage Way</span>
+			 </li>
+			 <li class = "email" style = "text-align: left;"><a href="mailto: kadala2@rpi.edu">kadala2@rpi.edu</a>
+				<span class = "region" style = "float: right;">Basking Ridge, NJ, 07920</span>
+			 </li>
+		 </ul>
+		</ul>
+     </div>
+    <div id = "content">
+		<div id = "profile">
+			<ul id = "summary_section">
+				<li class = "section_title">
+					<h3> BACKGROUND</h3>
+				</li>
+				<li class = "summary">
+					<ul class = "entry">
+						<li>
+							<ul class  = "title_location">
+							  <li>I am dependable, hardworking student majoring in Information Technology & Web Science. Currently a sophomore </li>
+							  <li>at RPI (class of 2024), I am seeking internship opportunities that will allow me grow and develop a further </li>
+							  <li>understanding about current advancements in technology such as Artificial Intelligence and Blockchain.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<img class = "photo" style="border:10px outset red;" src="picture.jpg" width="225" height="151" id = "right" alt="Profilepicture"/>
+		<div id = "experience">
+			<ul id = "job_section">
+				<li class = "section_title"> 			
+					<h3>EXPERIENCE</h3>
+				</li>
+				<li class = "job">
+					<ul class = "entry">
+						<li>
+							<ul class = "title_location">
+								<li class = "job_title"><b>Somerset County Youth Council</b></li>
+								<li class = "job_location">Somerset County, NJ</li>
+								<li class = "job_role"><b>Secretary</b></li>
+								<li class = "job_duration">9/2019 - 9/2020</li>
+								<li class = "job_explanation">The Somereset Youth Council is an organization where we help promote awareness about societal issues in my community</li>
+								<li class = "job_accomplishment"><i> Accomplishment: </i>Helped promote evironmental awareness by hosting events as well as promoted the usage promoting the organization itself by developing the organization's website.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				
+				<li class = "job">			
+					<ul class = "entry">
+						<ul class = "title_location">
+							<li class = "job_title"><b>High School Quiz Bowl</b></li>
+							<li class = "job_location">The Pingry School, Basking Ridge, NJ</li>
+							<li class = "job_role"><b>Tournament Organizer</b></li>
+							<li class = "job_duration">9/2019 - 9/2020</li>
+							<li class = "job_explanation"><i> Accomplishment: </i> As the Tournament Director for my high school Quiz Bowl team, I was responsible for organizing events that we hosted as well competed in.</li>
+							<li class = "job_accomplishment">In addition to competiting I helped the team win 2 tournaments as well as win the national title.</li>
+						</ul>
+					</ul>
+				</li>
+				<li class = "job">			
+					<ul class = "entry">
+						<ul class = "title_location">
+							<li class = "job_title"><b>Domino's Pizza</b></li>
+							<li class = "job_location">Warren, NJ</li>
+							<li class = "job_role"><b>Employee</b></li>
+							<li class = "job_duration">7/2021 - 9/2021</li>
+							<li class = "job_explanation">As my first paid work opportunity, this job allowed me to get a per </li>
+						</ul>
+					</ul>
+				</li>
+			</ul> 
+		</div>
+		<div id = "education_and_activities">
+			<ul id = "education_section">
+			<li class = "section_title"> 			
+				<h3>EDUCATION & ACTIVITIES</h3>
+			</li>
+				<li class = "education">
+					<ul class = "entry">
+						<li>
+							<ul class = "title_location">
+								<li class = "education_school"><b>Rensselaer Polytechnic Institute, Troy, NY</b> </li>
+								<li class = "education_date">2020-present</li>
+								<li class = "education_major">IT & Web Science Major</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class = "education">
+					<ul class = "entry">
+						<li>
+							<ul class = "title_location">
+								<li class = "education_school"><b>The Pingry School, Basking Ridge, NJ</b></li>
+								<li class = "education_date">2016-2020</li>
+								<li class = "education_data">3.7 GPA, HS Honor Roll (2016-2020)</li>
+								<li class = "education_activities">High School Quiz Bowl Member</li>
+								<li class = "education_activities">High School Varsity Baseball</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>	
+		</div> 
+		<div id = "education_and_activities">
+			<ul id = "education_section">
+				<li class = "section_title"> 			
+					<h3>SKILLS</h3>
+				</li>
+				<li class = "education">
+					<ul class = "entry">
+						<li>
+							<ul class = "title_location">
+								<li class = "skill1">Certified  in Python – Data Structures (University of Michigan through Coursera)</li>
+								<li class = "skill2">C++</li>
+								<li class = "skill3">Javascript</li>
+								<li class = "skill4">MS Powerpoint</li>
+								<li class = "skill5">Excel</li>
+								<li class = "skill6">SQL</li>
+								<li class = "skill7">HTML</li>
+								<li class = "skill8">PHP</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>	
+		</div> 
+    </div>  
+  </body>
+</html><!DOCTYPE html>
